@@ -1,1 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+}
+
+.card {
+  max-width: 343px;
+  font-size: 18px;
+}
+.card__banner {
+  border-radius: 15px 15px 0 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.card__img {
+  border-radius: 50%;
+  border: 5px solid white;
+  transform: translateY(-50%);
+}
+.card__body {
+  background: white;
+  text-align: center;
+  border-bottom: 1px solid #969696;
+  display: block;
+}
+.card__info {
+  transform: translateY(-100%);
+}
+.card__name {
+  font-weight: bold;
+}
+.card__footer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: white;
+  border-radius: 0 0 15px 15px;
+}
+
+.stat {
+  text-align: center;
+}
+.stat__value {
+  font-weight: bold;
+}
+.stat__name {
+  font-size: 0.8rem;
+}
