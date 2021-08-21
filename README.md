@@ -39,7 +39,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [GitHub](https://github.com/emekler0729/fem-profile-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://emekler0729.github.io/fem-profile-card-component/)
 
 ## My process
 
