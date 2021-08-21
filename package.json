@@ -1,0 +1,28 @@
+{
+  "name": "profile-card-component-main",
+  "version": "1.0.0",
+  "description": "Front End Mentor Profile Card Component Challenge",
+  "main": "index.js",
+  "scripts": {
+    "make-sass": "sass --no-source-map sass:styles",
+    "watch-sass": "sass --no-source-map --watch sass:styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emekler0729/fem-profile-card-component.git"
+  },
+  "keywords": [
+    "Front",
+    "End",
+    "Mentor"
+  ],
+  "author": "Eduard Mekler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emekler0729/fem-profile-card-component/issues"
+  },
+  "homepage": "https://github.com/emekler0729/fem-profile-card-component#readme",
+  "devDependencies": {
+    "sass": "^1.38.0"
+  }
+}
