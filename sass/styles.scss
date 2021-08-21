@@ -26,9 +26,9 @@ body {
                 $color-dark-cyan;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1100px) {
     body {
-        background: url('../images/bg-pattern-top.svg') left -600px top -400px no-repeat,
+        background: url('../images/bg-pattern-top.svg') left -500px top -500px no-repeat,
                     url('../images/bg-pattern-bottom.svg') right -525px bottom -550px no-repeat,
                     $color-dark-cyan;
             }
@@ -64,14 +64,22 @@ body {
         text-align: center;
         border-bottom: 1px solid $color-dark-gray;
         display: block;
+        color: $color-dark-grayish-blue;
     }
 
     &__info {
         transform: translateY(-100%);
+        margin-top: 0.6rem;
     }
 
     &__name {
         font-weight: bold;
+        color: $color-very-dark-desaturated-blue;
+    }
+
+    &__location {
+        font-size: 0.9rem;
+        margin-top: 8px;
     }
 
     &__footer {
@@ -89,9 +97,23 @@ body {
 
     &__value {
         font-weight: bold;
+        color: $color-very-dark-desaturated-blue;
     }
 
     &__name {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+        color:$color-dark-gray;
+    }
+}
+
+footer {
+    margin-top: 3rem;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+  
+    a {
+        color: #FFB776;
     }
 }
