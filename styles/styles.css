@@ -11,9 +11,19 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "Kumbh Sans", sans-serif;
-  background-color: #19a2ae;
+  background: url("../images/bg-pattern-top.svg") left -300px top -400px no-repeat, url("../images/bg-pattern-bottom.svg") right -225px bottom -550px no-repeat, #19a2ae;
 }
 
+@media (max-width: 1025px) {
+  body {
+    background: url("../images/bg-pattern-top.svg") left -600px top -400px no-repeat, url("../images/bg-pattern-bottom.svg") right -525px bottom -550px no-repeat, #19a2ae;
+  }
+}
+@media (max-width: 769px) {
+  body {
+    background: url("../images/bg-pattern-top.svg") left -775px top -525px no-repeat, url("../images/bg-pattern-bottom.svg") right -750px bottom -500px no-repeat, #19a2ae;
+  }
+}
 .card {
   max-width: 343px;
   font-size: 18px;

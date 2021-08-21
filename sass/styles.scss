@@ -21,7 +21,25 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: $font-sans-serif;
-    background-color: $color-dark-cyan;
+    background: url('../images/bg-pattern-top.svg') left -300px top -400px no-repeat,
+                url('../images/bg-pattern-bottom.svg') right -225px bottom -550px no-repeat,
+                $color-dark-cyan;
+}
+
+@media (max-width: 1025px) {
+    body {
+        background: url('../images/bg-pattern-top.svg') left -600px top -400px no-repeat,
+                    url('../images/bg-pattern-bottom.svg') right -525px bottom -550px no-repeat,
+                    $color-dark-cyan;
+            }
+}
+
+@media (max-width: 769px) {
+    body {
+        background: url('../images/bg-pattern-top.svg') left -775px top -525px no-repeat,
+                    url('../images/bg-pattern-bottom.svg') right -750px bottom -500px no-repeat,
+                    $color-dark-cyan;
+            }
 }
 
 .card {
